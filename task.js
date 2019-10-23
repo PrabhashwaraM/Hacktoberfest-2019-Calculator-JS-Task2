@@ -12,6 +12,8 @@ const performCalculation = {
     '-': (firstOperand, secondOperand) => firstOperand - secondOperand,
 
     '=': (firstOperand, secondOperand) => secondOperand
+	'/': (fristoperend, secondOperand) => fristoperend / secondOperand,
+	'*': (fristoperend, secondOperand) => fristoperend * secondOperand,
 };
 
 function inputDigit(digit) {
